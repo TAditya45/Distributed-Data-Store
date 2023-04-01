@@ -29,6 +29,7 @@ The program is structured as follows:
 
 
 The program also defines the following types:
+
       Request: A struct that represents an incoming API request. It has fields for the command, key, value, and options.
 
       Response: A struct that represents an outgoing API response. It has fields for whether the operation was successful, a message (if applicable), the key, and the value.
