@@ -4,6 +4,8 @@ Implementation of a simple data store API server that accepts HTTP POST requests
 This is a Go program that implements a simple key-value store with some additional functionality like a queue. The program listens for incoming HTTP requests and handles them by performing the specified operation on the data store. 
 
 The supported operations are:
+      
+
       GET: Get the value of a key
 
       SET: Set the value of a key
@@ -31,6 +33,7 @@ The program is structured as follows:
 
 
 The program also defines the following types:
+
 
       Request: A struct that represents an incoming API request. It has fields for the command, key, value, and options.
 
