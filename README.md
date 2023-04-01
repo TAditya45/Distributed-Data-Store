@@ -21,6 +21,8 @@ The supported operations are:
 
 
 The program is structured as follows:
+
+
       The main function creates a new instance of DataStore, which is a struct that contains a map of strings to strings for storing key-value pairs.
 
       The handleAPI function creates an HTTP handler function that parses incoming requests, performs the requested operation on the data store, and returns a JSON-  encoded response.
